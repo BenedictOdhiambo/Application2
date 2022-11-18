@@ -20,7 +20,7 @@ def main():#defining the main function
     st.header('Enter the timestamp:')#header instructing the user on what to do
     timestamp = st.number_input('timestamp:', min_value=0, max_value=1000, value=1)#defining the timestamp which is the input
     if st.button('Predict Passengers'):#creting the button to be clicked in order to run thr predicting command
-        st.code(scaler.predict(timestamp))#Defining how the prediction will be performed
+        st.code(savedModel.predict(timestamp))#Defining how the prediction will be performed
         st.success('The predicted number of passengers is;')#output to be displayed when the prediction is successful
 if __name__=='__main__': #running the script
         main() #starting point of the execution of the program
