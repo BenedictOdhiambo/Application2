@@ -21,7 +21,7 @@ warnings.filterwarnings('ignore')
 
 
 # Load the dataset
-Data=pd.read_csv("D:\Ben Important\Master Data Analytics\MSC 2.1 Notes\Data Analytics and Knowledge Engineering\AirPassengers.csv")
+Data=pd.read_csv("AirPassengers.csv")
 #Renaming the column names since the hashtag would render it a comment
 Data.rename(columns={'#Passengers':'Passengers'}, inplace=True)
 
