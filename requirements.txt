@@ -1,0 +1,12 @@
+scikit-learn
+pandas
+matplotlib
+streamlit
+numpy
+Keras
+tensorboard
+tensorboard-plugin-wit
+tensorflow
+tensorflow-estimator
+scipy
+h5py
