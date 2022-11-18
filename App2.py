@@ -12,6 +12,7 @@
 import streamlit as st#library for creating web apps
 import numpy as np#library for working with arrays
 from keras.models import load_model#library used to load the saved model
+from sklearn.preprocessing import MinMaxScaler
 savedModel=load_model('gru-modell.h5')#loading the saved model to be used in the creation of the web app
 savedModel.summary()#Displaying to see the summay of the model
 
